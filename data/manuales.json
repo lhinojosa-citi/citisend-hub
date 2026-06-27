@@ -1,0 +1,44 @@
+[
+  {
+    "titulo": "Manual de Gestión de Proyectos",
+    "categoria": "Planner",
+    "tipo": "HTML",
+    "version": "v1.0",
+    "archivo": "manuales/gestion-proyectos.html"
+  },
+  {
+    "titulo": "Manual de Configuración de Dispositivos",
+    "categoria": "Software",
+    "tipo": "HTML",
+    "version": "v1.0",
+    "archivo": "manuales/configuracion-dispositivos.html"
+  },
+  {
+    "titulo": "Manual de Mantenimiento Citisend",
+    "categoria": "Mantenimiento",
+    "tipo": "HTML",
+    "version": "v1.0",
+    "archivo": "manuales/mantenimiento-citisend.html"
+  },
+  {
+    "titulo": "Manual Tarjetas Citisend",
+    "categoria": "Tarjetas",
+    "tipo": "HTML",
+    "version": "v1.0",
+    "archivo": "manuales/tarjetas-citisend.html"
+  },
+  {
+    "titulo": "CitiDocs · Generador CAE",
+    "categoria": "CAE",
+    "tipo": "HTML",
+    "version": "v1.0",
+    "archivo": "manuales/generador-cae.html"
+  },
+  {
+    "titulo": "Plan de Mantenimiento Citisend",
+    "categoria": "Mantenimiento",
+    "tipo": "PDF",
+    "version": "v1.0",
+    "archivo": "docs/plan-mantenimiento-citisend.pdf"
+  }
+]
