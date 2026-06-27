@@ -2,181 +2,195 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Citisend Knowledge Center</title>
+  <title>Citisend HUB</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 
 <body>
-  <div class="app">
+  <div class="hub-layout">
 
     <aside class="sidebar">
-      <div class="brand">
-        <div class="logo-mark">C</div>
-        <div>
-          <strong>Citisend</strong>
-          <span>Knowledge Center</span>
-        </div>
+      <div class="sidebar-logo">
+        <img src="assets/logo-citisend.png" alt="Citisend Logo">
+        <span>HUB</span>
       </div>
 
-      <nav class="menu">
-        <a href="#inicio" class="active">🏠 Inicio</a>
-        <a href="#manuales">📚 Manuales</a>
+      <nav class="sidebar-menu">
+        <a class="active" href="#inicio">🏠 Inicio</a>
+        <a href="#biblioteca">📚 Biblioteca</a>
         <a href="#proyectos">📦 Proyectos</a>
+        <a href="#cae">🦺 CAE</a>
+        <a href="#planner">📋 Planner</a>
+        <a href="#software">💻 Software</a>
         <a href="#plantillas">📄 Plantillas</a>
+        <a href="#descargas">⬇️ Descargas</a>
         <a href="#contactos">👥 Contactos</a>
       </nav>
+
+      <div class="help-card">
+        <h3>¿Necesitas ayuda?</h3>
+        <p>Contacta con el equipo de Project Management.</p>
+        <a href="#contactos">Ir a contactos →</a>
+      </div>
+
+      <div class="sidebar-footer">
+        <strong>Citisend HUB</strong>
+        <span>Versión 1.0.0</span>
+      </div>
     </aside>
 
-    <main class="content">
+    <main class="main-content">
 
-      <section id="inicio" class="hero-panel">
-        <p class="eyebrow">Portal interno</p>
-        <h1>Centro de documentación Citisend</h1>
-        <p>
-          Accede a manuales, procedimientos, plantillas y recursos internos desde un único lugar.
-        </p>
-
-        <input
-          type="text"
-          id="searchInput"
-          class="search-input"
-          placeholder="Buscar manual, proyecto o categoría..."
-          onkeyup="searchManuals()"
-        />
-      </section>
-
-      <section class="dashboard">
-        <article>
-          <strong>6</strong>
-          <span>Categorías</span>
-        </article>
-        <article>
-          <strong>4</strong>
-          <span>Manuales</span>
-        </article>
-        <article>
-          <strong>24/7</strong>
-          <span>Acceso online</span>
-        </article>
-      </section>
-
-      <section id="manuales" class="section">
-        <div class="section-title">
-          <p>Biblioteca</p>
-          <h2>Manuales disponibles</h2>
+      <header class="topbar">
+        <div class="search-box">
+          🔍 <input type="text" id="searchInput" placeholder="Buscar manuales, proyectos, plantillas..." onkeyup="searchCards()">
         </div>
 
-        <div class="cards-grid" id="manualList">
+        <div class="user-box">
+          <div class="avatar">LH</div>
+          <div>
+            <strong>Luis Hinojosa</strong>
+            <span>Project Manager</span>
+          </div>
+        </div>
+      </header>
 
-          <article class="card manual-card">
-            <span class="tag">Planner</span>
-            <h3>Manual de Gestión de Proyectos</h3>
-            <p>Guía para trabajar con Planner, Teams y seguimiento de fases internas.</p>
-            <a href="#">Abrir manual</a>
-          </article>
+      <section id="inicio" class="hero-card">
+        <div class="hero-logo">
+          <img src="assets/logo-citisend.png" alt="Citisend">
+        </div>
 
-          <article class="card manual-card">
-            <span class="tag">Instalación</span>
-            <h3>Manual de Instalación de Dispositivos</h3>
-            <p>Procedimiento de instalación, configuración y validación en campo.</p>
-            <a href="#">Abrir manual</a>
-          </article>
-
-          <article class="card manual-card">
-            <span class="tag">Mantenimiento</span>
-            <h3>Plan de Mantenimiento</h3>
-            <p>Preventivos, correctivos, revisión de incidencias y control operativo.</p>
-            <a href="#">Abrir manual</a>
-          </article>
-
-          <article class="card manual-card">
-            <span class="tag">CAE</span>
-            <h3>Documentación CAE</h3>
-            <p>Documentación relacionada con coordinación empresarial y subcontratas.</p>
-            <a href="#">Abrir manual</a>
-          </article>
-
+        <div class="hero-text">
+          <p>Bienvenido a</p>
+          <h1>Citisend <span>HUB</span></h1>
+          <p>Tu centro de documentación, procesos y recursos internos. Todo lo que necesitas, en un solo lugar.</p>
         </div>
       </section>
 
-      <section id="proyectos" class="section">
-        <div class="section-title">
-          <p>Operaciones</p>
-          <h2>Proyectos</h2>
-        </div>
-
-        <div class="cards-grid">
-          <article class="card">
-            <h3>Granada</h3>
-            <p>Documentación, implantación, seguimiento e incidencias del proyecto.</p>
-          </article>
-
-          <article class="card">
-            <h3>Avilés</h3>
-            <p>Manual operativo, mantenimiento, rutas y documentación CAE.</p>
-          </article>
-
-          <article class="card">
-            <h3>Alcalá de Guadaíra</h3>
-            <p>Instalación, mantenimiento, incidencias y documentación del cliente.</p>
-          </article>
-        </div>
+      <section class="quick-grid">
+        <article class="quick-card">📚<h3>Biblioteca</h3><p>Manuales y documentación</p></article>
+        <article class="quick-card">📦<h3>Proyectos</h3><p>Seguimiento y documentación</p></article>
+        <article class="quick-card">🦺<h3>CAE</h3><p>Coordinación de actividades</p></article>
+        <article class="quick-card">📋<h3>Planner</h3><p>Gestión de tareas y proyectos</p></article>
+        <article class="quick-card">💻<h3>Software</h3><p>Plataformas y herramientas</p></article>
+        <article class="quick-card">⬇️<h3>Descargas</h3><p>Archivos y recursos</p></article>
       </section>
 
-      <section id="plantillas" class="section">
-        <div class="section-title">
-          <p>Recursos</p>
-          <h2>Plantillas internas</h2>
+      <section class="dashboard-grid">
+
+        <div id="biblioteca" class="panel">
+          <div class="panel-header">
+            <h2>📄 Últimos documentos</h2>
+            <a href="#">Ver todos →</a>
+          </div>
+
+          <div class="document-list" id="cardList">
+            <article class="document-card">
+              <div class="doc-icon pdf">PDF</div>
+              <div>
+                <h3>Manual de Gestión de Proyectos</h3>
+                <p>Actualizado hace 2 días · Planner · v2.1</p>
+              </div>
+              <a href="#">⬇</a>
+            </article>
+
+            <article class="document-card">
+              <div class="doc-icon html">HTML</div>
+              <div>
+                <h3>Manual de Instalación de Dispositivos</h3>
+                <p>Actualizado hace 5 días · Instalación · v1.3</p>
+              </div>
+              <a href="#">⬇</a>
+            </article>
+
+            <article class="document-card">
+              <div class="doc-icon pdf">PDF</div>
+              <div>
+                <h3>Plan de Mantenimiento</h3>
+                <p>Actualizado hace 1 semana · Mantenimiento · v1.0</p>
+              </div>
+              <a href="#">⬇</a>
+            </article>
+
+            <article class="document-card">
+              <div class="doc-icon pdf">PDF</div>
+              <div>
+                <h3>Documentación CAE</h3>
+                <p>Actualizado hace 2 semanas · CAE · v1.2</p>
+              </div>
+              <a href="#">⬇</a>
+            </article>
+          </div>
         </div>
 
-        <div class="cards-grid">
-          <article class="card">
-            <h3>Plantilla de seguimiento</h3>
-            <p>Modelo para seguimiento de implantaciones, incidencias y estados.</p>
-          </article>
+        <div id="proyectos" class="panel">
+          <div class="panel-header">
+            <h2>📦 Proyectos en curso</h2>
+            <a href="#">Ver todos →</a>
+          </div>
 
-          <article class="card">
-            <h3>Plantilla CAE</h3>
-            <p>Documento base para coordinación de actividades empresariales.</p>
-          </article>
+          <div class="project-list">
+            <div class="project-item">
+              <strong>Granada</strong>
+              <span>Fase 1.2 · Instalación</span>
+              <div class="progress"><div style="width:78%"></div></div>
+            </div>
+
+            <div class="project-item">
+              <strong>Avilés</strong>
+              <span>Mantenimiento y correctivo</span>
+              <div class="progress"><div style="width:62%"></div></div>
+            </div>
+
+            <div class="project-item">
+              <strong>Alcalá de Guadaíra</strong>
+              <span>Implantación y seguimiento</span>
+              <div class="progress"><div style="width:45%"></div></div>
+            </div>
+
+            <div class="project-item">
+              <strong>Illescas</strong>
+              <span>Instalación</span>
+              <div class="progress"><div style="width:30%"></div></div>
+            </div>
+          </div>
         </div>
+
+        <div class="side-panels">
+          <div class="panel mini-panel">
+            <h2>⚡ Acceso rápido</h2>
+            <a href="#biblioteca">Buscar en la biblioteca →</a>
+            <a href="#plantillas">Plantillas internas →</a>
+            <a href="#contactos">Contactos →</a>
+            <a href="#">Solicitar documento →</a>
+          </div>
+
+          <div class="panel mini-panel">
+            <h2>📢 Novedades</h2>
+            <p><strong>Nueva versión del Manual Planner v2.1</strong><br>Publicado hace 2 días</p>
+            <p><strong>Actualización Plan de Mantenimiento</strong><br>Publicado hace 1 semana</p>
+          </div>
+        </div>
+
       </section>
 
-      <section id="contactos" class="section">
-        <div class="section-title">
-          <p>Soporte</p>
-          <h2>Contactos internos</h2>
-        </div>
-
-        <div class="cards-grid">
-          <article class="card">
-            <h3>Project Management</h3>
-            <p>Gestión de proyectos, planificación, documentación y seguimiento.</p>
-          </article>
-
-          <article class="card">
-            <h3>Operaciones</h3>
-            <p>Instalaciones, mantenimientos, materiales y coordinación de campo.</p>
-          </article>
-        </div>
+      <section id="contactos" class="info-bar">
+        ℹ️ ¿No encuentras lo que buscas? Utiliza el buscador superior o contacta con Project Management.
+        <a href="mailto:">Ir a contactos →</a>
       </section>
-
-      <footer>
-        Citisend · Portal interno de documentación
-      </footer>
 
     </main>
   </div>
 
   <script>
-    function searchManuals() {
+    function searchCards() {
       const input = document.getElementById("searchInput").value.toLowerCase();
-      const cards = document.querySelectorAll(".manual-card");
+      const cards = document.querySelectorAll(".document-card");
 
       cards.forEach(card => {
         const text = card.innerText.toLowerCase();
-        card.style.display = text.includes(input) ? "block" : "none";
+        card.style.display = text.includes(input) ? "flex" : "none";
       });
     }
   </script>
