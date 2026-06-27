@@ -8,8 +8,9 @@
 </head>
 
 <body>
-  <header class="hero">
-    <nav class="navbar">
+  <div class="app">
+
+    <aside class="sidebar">
       <div class="brand">
         <div class="logo-mark">C</div>
         <div>
@@ -17,84 +18,156 @@
           <span>Knowledge Center</span>
         </div>
       </div>
-      <a class="nav-button" href="#manuales">Ver manuales</a>
-    </nav>
 
-    <section class="hero-content">
-      <p class="eyebrow">Portal interno de documentación</p>
-      <h1>Manuales, procedimientos y recursos internos en un solo lugar.</h1>
-      <p class="subtitle">
-        Accede rápidamente a documentación de instalación, mantenimiento, proyectos, software, CAE y plantillas.
-      </p>
+      <nav class="menu">
+        <a href="#inicio" class="active">🏠 Inicio</a>
+        <a href="#manuales">📚 Manuales</a>
+        <a href="#proyectos">📦 Proyectos</a>
+        <a href="#plantillas">📄 Plantillas</a>
+        <a href="#contactos">👥 Contactos</a>
+      </nav>
+    </aside>
 
-      <div class="search-panel">
+    <main class="content">
+
+      <section id="inicio" class="hero-panel">
+        <p class="eyebrow">Portal interno</p>
+        <h1>Centro de documentación Citisend</h1>
+        <p>
+          Accede a manuales, procedimientos, plantillas y recursos internos desde un único lugar.
+        </p>
+
         <input
           type="text"
           id="searchInput"
-          placeholder="Buscar manual, categoría o palabra clave..."
+          class="search-input"
+          placeholder="Buscar manual, proyecto o categoría..."
           onkeyup="searchManuals()"
         />
-      </div>
-    </section>
-  </header>
+      </section>
 
-  <main>
-    <section class="stats">
-      <div><strong>6</strong><span>Categorías</span></div>
-      <div><strong>4</strong><span>Manuales iniciales</span></div>
-      <div><strong>24/7</strong><span>Acceso online</span></div>
-    </section>
-
-    <section class="categories">
-      <article>📦 <span>Instalación</span></article>
-      <article>📖 <span>Mantenimiento</span></article>
-      <article>📋 <span>Planner</span></article>
-      <article>🔧 <span>Software</span></article>
-      <article>🦺 <span>CAE</span></article>
-      <article>📁 <span>Plantillas</span></article>
-    </section>
-
-    <section id="manuales" class="manual-section">
-      <div class="section-heading">
-        <p>Biblioteca</p>
-        <h2>Últimos manuales</h2>
-      </div>
-
-      <div class="manual-grid" id="manualList">
-        <article class="manual-card">
-          <span class="tag">Planner</span>
-          <h3>Manual de Gestión de Proyectos</h3>
-          <p>Guía para gestionar proyectos mediante Planner, Teams y seguimiento por fases.</p>
-          <a href="#">Abrir manual</a>
+      <section class="dashboard">
+        <article>
+          <strong>6</strong>
+          <span>Categorías</span>
         </article>
-
-        <article class="manual-card">
-          <span class="tag">Instalación</span>
-          <h3>Manual de Instalación de Dispositivos</h3>
-          <p>Procedimiento paso a paso para instalación, verificación y puesta en marcha.</p>
-          <a href="#">Abrir manual</a>
+        <article>
+          <strong>4</strong>
+          <span>Manuales</span>
         </article>
-
-        <article class="manual-card">
-          <span class="tag">Mantenimiento</span>
-          <h3>Plan de Mantenimiento</h3>
-          <p>Tareas preventivas, correctivas, revisión de incidencias y control operativo.</p>
-          <a href="#">Abrir manual</a>
+        <article>
+          <strong>24/7</strong>
+          <span>Acceso online</span>
         </article>
+      </section>
 
-        <article class="manual-card">
-          <span class="tag">CAE</span>
-          <h3>Documentación CAE</h3>
-          <p>Plantillas y documentación relacionada con coordinación empresarial.</p>
-          <a href="#">Abrir manual</a>
-        </article>
-      </div>
-    </section>
-  </main>
+      <section id="manuales" class="section">
+        <div class="section-title">
+          <p>Biblioteca</p>
+          <h2>Manuales disponibles</h2>
+        </div>
 
-  <footer>
-    Citisend · Portal interno de documentación
-  </footer>
+        <div class="cards-grid" id="manualList">
+
+          <article class="card manual-card">
+            <span class="tag">Planner</span>
+            <h3>Manual de Gestión de Proyectos</h3>
+            <p>Guía para trabajar con Planner, Teams y seguimiento de fases internas.</p>
+            <a href="#">Abrir manual</a>
+          </article>
+
+          <article class="card manual-card">
+            <span class="tag">Instalación</span>
+            <h3>Manual de Instalación de Dispositivos</h3>
+            <p>Procedimiento de instalación, configuración y validación en campo.</p>
+            <a href="#">Abrir manual</a>
+          </article>
+
+          <article class="card manual-card">
+            <span class="tag">Mantenimiento</span>
+            <h3>Plan de Mantenimiento</h3>
+            <p>Preventivos, correctivos, revisión de incidencias y control operativo.</p>
+            <a href="#">Abrir manual</a>
+          </article>
+
+          <article class="card manual-card">
+            <span class="tag">CAE</span>
+            <h3>Documentación CAE</h3>
+            <p>Documentación relacionada con coordinación empresarial y subcontratas.</p>
+            <a href="#">Abrir manual</a>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="proyectos" class="section">
+        <div class="section-title">
+          <p>Operaciones</p>
+          <h2>Proyectos</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Granada</h3>
+            <p>Documentación, implantación, seguimiento e incidencias del proyecto.</p>
+          </article>
+
+          <article class="card">
+            <h3>Avilés</h3>
+            <p>Manual operativo, mantenimiento, rutas y documentación CAE.</p>
+          </article>
+
+          <article class="card">
+            <h3>Alcalá de Guadaíra</h3>
+            <p>Instalación, mantenimiento, incidencias y documentación del cliente.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="plantillas" class="section">
+        <div class="section-title">
+          <p>Recursos</p>
+          <h2>Plantillas internas</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Plantilla de seguimiento</h3>
+            <p>Modelo para seguimiento de implantaciones, incidencias y estados.</p>
+          </article>
+
+          <article class="card">
+            <h3>Plantilla CAE</h3>
+            <p>Documento base para coordinación de actividades empresariales.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contactos" class="section">
+        <div class="section-title">
+          <p>Soporte</p>
+          <h2>Contactos internos</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Project Management</h3>
+            <p>Gestión de proyectos, planificación, documentación y seguimiento.</p>
+          </article>
+
+          <article class="card">
+            <h3>Operaciones</h3>
+            <p>Instalaciones, mantenimientos, materiales y coordinación de campo.</p>
+          </article>
+        </div>
+      </section>
+
+      <footer>
+        Citisend · Portal interno de documentación
+      </footer>
+
+    </main>
+  </div>
 
   <script>
     function searchManuals() {
