@@ -1,0 +1,15 @@
+[
+  {
+    "id": "luis-hinojosa",
+    "nombre": "Luis Hinojosa",
+    "cargo": "Project Manager",
+    "telefono": "621157471",
+    "email": "",
+    "empresa": "Citisend",
+    "tipo": "Interno",
+    "proyectos": [
+      "todos"
+    ],
+    "visible": true
+  }
+]
