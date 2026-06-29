@@ -223,8 +223,8 @@
     "estado": "En ejecución",
     "estadoIcono": "🟢",
     "responsable": "Luis Hinojosa",
-    "dispositivos": 3500,
-    "instalados": 2485,
+    "dispositivos": 6112,
+    "instalados": 3.574,
     "manuales": [
       "configuracion-dispositivos",
       "tarjetas-citisend"
@@ -232,6 +232,7 @@
     "fotografias": 0,
     "planner": "#",
     "galeria": "proyectos/granada/galeria/",
+    "galeriaFotos": [],
     "contactos": [
       {
         "nombre": "Luis Hinojosa",
@@ -242,10 +243,10 @@
       }
     ],
     "software": [
-      "Planner"
-    ],
-    "galeriaFotos": [],
-    "destacado": true
+      "Planner",
+      "SLOC",
+      "Teams"
+    ]
   },
   {
     "id": "sanlucar-barrameda",
@@ -375,11 +376,11 @@
     "id": "copate",
     "nombre": "Copate",
     "cliente": "COPATE",
-    "estado": "En ejecución",
-    "estadoIcono": "🟢",
+    "estado": "Finalizado",
+    "estadoIcono": "✅",
     "responsable": "Luis Hinojosa",
-    "dispositivos": 0,
-    "instalados": 0,
+    "dispositivos": 11,
+    "instalados": 11,
     "manuales": [
       "configuracion-dispositivos",
       "tarjetas-citisend"
@@ -387,6 +388,38 @@
     "fotografias": 6,
     "planner": "#",
     "galeria": "proyectos/copate/galeria/",
+    "galeriaFotos": [
+      {
+        "archivo": "copate-envases-vidrio-papel.jpg",
+        "categoria": "Instalación",
+        "descripcion": "Vista frontal de contenedores con dispositivos instalados."
+      },
+      {
+        "archivo": "copate-envases-vidrio-papel2.jpg",
+        "categoria": "Instalación",
+        "descripcion": "Vista general de los contenedores en campo."
+      },
+      {
+        "archivo": "copate-campa.jpeg",
+        "categoria": "Instalación",
+        "descripcion": "Vista de campa y contenedores del proyecto."
+      },
+      {
+        "archivo": "copate-campa-2.jpeg",
+        "categoria": "Instalación",
+        "descripcion": "Detalle adicional de la instalación."
+      },
+      {
+        "archivo": "copate-pals.jpeg",
+        "categoria": "Instalación",
+        "descripcion": "Fotografía de referencia recibida."
+      },
+      {
+        "archivo": "copate-pals-2.jpeg",
+        "categoria": "Instalación",
+        "descripcion": "Fotografía de referencia recibida."
+      }
+    ],
     "contactos": [
       {
         "nombre": "Luis Hinojosa",
@@ -397,46 +430,7 @@
       }
     ],
     "software": [
-      "Planner"
-    ],
-    "galeriaFotos": [
-      {
-        "archivo": "copate-envases-vidrio-papel.jpg",
-        "titulo": "Contenedores instalados · 1",
-        "categoria": "Instalación",
-        "descripcion": "Vista frontal de contenedores con dispositivos instalados."
-      },
-      {
-        "archivo": "copate-envases-vidrio-papel2.jpg",
-        "titulo": "Contenedores instalados · 2",
-        "categoria": "Instalación",
-        "descripcion": "Vista general de los contenedores en campo."
-      },
-      {
-        "archivo": "copate-campa.jpeg",
-        "titulo": "Campa COPATE",
-        "categoria": "Instalación",
-        "descripcion": "Vista de campa y contenedores del proyecto."
-      },
-      {
-        "archivo": "copate-campa-2.jpeg",
-        "titulo": "Campa COPATE · 2",
-        "categoria": "Instalación",
-        "descripcion": "Detalle adicional de la instalación."
-      },
-      {
-        "archivo": "copate-pals.jpeg",
-        "titulo": "Detalle instalación",
-        "categoria": "Instalación",
-        "descripcion": "Fotografía de referencia recibida."
-      },
-      {
-        "archivo": "copate-pals-2.jpeg",
-        "titulo": "Detalle instalación · 2",
-        "categoria": "Instalación",
-        "descripcion": "Fotografía de referencia recibida."
-      }
-    ],
-    "destacado": true
+      "Citiservice"
+    ]
   }
 ]
