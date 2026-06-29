@@ -1,0 +1,13 @@
+{
+  "empresa": "Citisend",
+  "version": "1.9",
+  "adminPassword": "Citisend2026",
+  "contactoPorDefecto": "luis-hinojosa",
+  "softwarePorDefecto": [
+    "Planner"
+  ],
+  "manualesPorDefecto": [
+    "configuracion-dispositivos",
+    "tarjetas-citisend"
+  ]
+}
