@@ -1,8 +1,0 @@
-Citisend HUB v2.0
-- Nueva pantalla principal de acceso por proyecto.
-- Contraseña individual por proyecto mediante data/accesos.json.
-- Acceso administración con contraseña Citisend2026.
-- HUB completo movido a hub.html para vista administrador.
-- Vista instalador limitada al proyecto seleccionado.
-- Ocultación de navegación global y administración en vista instalador.
-- Botón de manuales ajustado para volver a la pantalla anterior.

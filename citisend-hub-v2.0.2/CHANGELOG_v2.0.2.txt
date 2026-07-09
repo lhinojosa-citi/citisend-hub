@@ -1,5 +1,0 @@
-Citisend HUB v2.0.2
-
-- Renombrado Biblioteca Premium a Biblioteca.
-- Eliminados los bloques Vista instalador y Vista administrador de la pantalla inicial.
-- Pantalla inicial centrada y más limpia.
