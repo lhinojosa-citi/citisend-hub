@@ -1,0 +1,13 @@
+Citisend HUB v1.7
+
+Cambios principales:
+- Proyectos compactos en portada: solo 3 destacados cuando no hay filtro.
+- Selector y buscador de proyectos mantienen la carga desde data/proyectos.json.
+- Dentro de cada proyecto: selector para cambiar directamente a otro proyecto.
+- Navegación anterior/siguiente entre proyectos.
+- Manuales relacionados reducidos a:
+  · Manual de Configuración de Dispositivos
+  · Manual Tarjetas Citisend
+- Galería mejorada con zoom suave y visor con anterior/siguiente.
+- Actualización de datos por defecto en proyectos.json.
+- Corrección visual del botón Volver al HUB en manuales.

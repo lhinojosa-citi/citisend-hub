@@ -1,0 +1,10 @@
+Citisend HUB v1.9.1
+
+Release estable visual.
+
+Cambios principales:
+- Ajustado el vídeo del manual Sensor Volumétrico SLOC.
+- Vídeo centrado con ancho máximo de 800 px.
+- Mejoras responsive para ordenador, tablet y móvil.
+- Actualización de versión global a 1.9.1.
+- Cache busting de style.css actualizado a v1.9.1.

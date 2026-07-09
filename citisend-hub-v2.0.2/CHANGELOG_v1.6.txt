@@ -1,0 +1,8 @@
+Citisend HUB v1.6
+
+- Manuales por defecto en todos los proyectos: Configuración de Dispositivos, Mantenimiento Citisend y Tarjetas Citisend.
+- Software por defecto en proyectos: Planner.
+- Enlace Planner preparado para abrir en pestaña nueva desde la ficha del proyecto y desde Software cuando exista URL.
+- Contacto interno por defecto añadido con teléfono: Luis Hinojosa · Project Manager · 621157471 · Citisend · Interno.
+- Eliminados Planner y CAE del menú lateral izquierdo.
+- Administración actualizada para generar proyectos con los nuevos valores por defecto.

@@ -1,0 +1,13 @@
+Citisend HUB v1.5
+
+Cambios principales:
+- Añadidos proyectos activos al archivo data/proyectos.json.
+- Añadido proyecto COPATE como prueba de galería con imágenes reales.
+- Añadido selector desplegable y buscador de proyectos para evitar que el HUB crezca visualmente demasiado.
+- La página proyecto.html sigue siendo única y dinámica: proyecto.html?id=granada, proyecto.html?id=copate, etc.
+- Galería mejorada con zoom al pasar el cursor y visor ampliado al hacer clic.
+- Corregido el botón Volver al HUB dentro de los manuales eliminando el enlace duplicado.
+- Añadidas carpetas base por proyecto para galería y documentos.
+
+Nota:
+GitHub Pages no puede leer automáticamente el contenido de una carpeta. Para que una imagen aparezca en la galería debe estar subida en la carpeta del proyecto y estar listada en data/proyectos.json dentro de galeriaFotos.

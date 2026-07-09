@@ -1,0 +1,10 @@
+Citisend HUB v1.8
+
+Cambios principales:
+- Nuevo módulo Contactos en el HUB.
+- Se añade data/contactos.json con Luis Hinojosa como contacto interno por defecto.
+- Administración protegida con contraseña: Citisend2026.
+- Administración incluye generador de contacto interno para copiar en data/contactos.json.
+- Se elimina el bloque de tarjetas repetidas bajo Proyectos.
+- Se añade data/config.json para preparar configuración global futura.
+- Proyectos siguen mostrando contacto por defecto si no tienen contactos específicos.
